@@ -1,2 +1,12 @@
-.vscode
-.exe
+# Compiled binaries
+main
+main.exe
+*.exe
+*.o
+*.obj
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
