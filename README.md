@@ -14,7 +14,7 @@ This project implements classical graph algorithms to solve single-source shorte
 - **Exact Solution (Bellman-Held-Karp algorithm)**: Dynamic programming with bitmasking ($O(n^2 2^n)$ time complexity) for graphs with $N \le 20$ vertices to find the exact minimum-cost Hamiltonian circuit.
 - **Heuristic Approximation**: Greedy nearest neighbor and local search optimization strategies for larger graph instances where exact exponential search is computationally intractable.
 
-### 3. Technical Report (`report/tsm.pdf`)
+### 3. Technical Report (`docs/report/tsm.pdf`)
 - In-depth theoretical analysis, mathematical formulation, complexity breakdown, and empirical evaluation of the algorithms.
 
 ## Project Structure
@@ -28,10 +28,11 @@ This project implements classical graph algorithms to solve single-source shorte
 │   ├── bellman.cpp                         # Implementation of Bellman-Ford
 │   ├── tsm.cpp                             # Implementation of Bellman-Held-Karp & heuristics
 │   └── main.cpp                            # Test runner & demonstration suite
-├── specs/
-│   └── DS__CO1007__SEM_242___Assignment.pdf # Assignment specification document
-├── report/
-│   └── tsm.pdf                             # Technical report on TSP solution
+├── docs/
+│   ├── report/
+│   │   └── tsm.pdf                         # Technical report on TSP solution
+│   └── specs/
+│       └── DS__CO1007__SEM_242___Assignment.pdf # Assignment specification document
 ├── .gitignore                              # Git ignore rules
 ├── LICENSE                                 # MIT License
 ├── README.md                               # Project documentation
